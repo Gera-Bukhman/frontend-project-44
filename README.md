@@ -1,2 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Gera-Bukhman/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Gera-Bukhman/frontend-project-44/actions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Gera-Bukhman_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Gera-Bukhman_frontend-project-44)
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Gera-Bukhman_frontend-project-44)](https://sonarcloud.io/summary/new_code?id=Gera-Bukhman_frontend-project-44)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=Gera-Bukhman_frontend-project-44)
+[![asciicast](https://asciinema.org/a/9kV9uROcRljyI2l2PctsUo3bp.svg)](https://asciinema.org/a/9kV9uROcRljyI2l2PctsUo3bp)
+[![asciicast](https://asciinema.org/a/cJHAygjkjN5GqKj4E1vBoP84c.svg)](https://asciinema.org/a/cJHAygjkjN5GqKj4E1vBoP84c)

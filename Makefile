@@ -11,3 +11,6 @@ brain-games:
 
 link:
 	npm link
+
+lint:
+	npx eslint .
