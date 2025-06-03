@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { even } from '../src/even-logic.js';
+import { even } from '../src/even-logic.js'
 
-even();
+even()
 
