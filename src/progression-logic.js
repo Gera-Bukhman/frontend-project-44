@@ -22,9 +22,9 @@ export const askQuestion = () => {
 
   // 2. Создаем массив прогрессии
   const progression = [];
-for (let i = 0; i < length; i++) {
-  progression.push(start + i * step);
-}
+  for (let i = 0; i < length; i++) {
+    progression.push(start + i * step);
+  }
   
   // 3. Запоминаем ответ и скрываем элемент
   const answer = progression[hiddenIndex];

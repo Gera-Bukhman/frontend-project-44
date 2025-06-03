@@ -14,21 +14,21 @@ export const askQuestion = () => {
   const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
   
   
-function isPrime(number) {
-  if (number <= 1) return false;
-  for (let i = 2; i <= Math.sqrt(number); i++) {
-    if (number % i === 0) return false;
+  function isPrime(number) {
+    if (number <= 1) return false;
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) return false;
+    }
+    return true;
   }
-  return true;
-}
 
   const num1 = getRandomNumber(1, 10);
  
 
 
- console.log(`Question: ${num1}`);
-    const correctAnswer = isPrime(num1) ? 'yes' : 'no';
-    const userAnswer = readlineSync.question('Your answer: ').toLowerCase();
+  console.log(`Question: ${num1}`);
+  const correctAnswer = isPrime(num1) ? 'yes' : 'no';
+  const userAnswer = readlineSync.question('Your answer: ').toLowerCase();
   
   if (userAnswer === correctAnswer) {
     console.log('Correct!');

@@ -16,9 +16,9 @@ export const askQuestion = () => {
   
   const calculate = (a, b) => {
     switch (operator) {
-      case '+': return a + b;
-      case '*': return a * b;
-      default: return NaN;
+    case '+': return a + b;
+    case '*': return a * b;
+    default: return NaN;
     }
   };
 

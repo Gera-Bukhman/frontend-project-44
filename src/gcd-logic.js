@@ -16,10 +16,10 @@ export const askQuestion = () => {
   
   const nod = (a, b) => {
     if (b === 0) {
-        return a;
+      return a;
     }
     return nod(b, a % b);
-};
+  };
 
   const num1 = getRandomNumber(1, 100);
   const num2 = getRandomNumber(1, 100);
