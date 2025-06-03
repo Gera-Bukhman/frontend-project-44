@@ -9,25 +9,24 @@ export const greetUser = () => {
 };
 
 export const askQuestion = () => {
-  console.log('What is the result of the expression?');
+  console.log('Find the greatest common divisor of given numbers.');
   
   const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-  const getRandomOperator = () => ['+', '*'][Math.floor(Math.random() * 2)];
   
-  const calculate = (a, b) => {
-    switch (operator) {
-      case '+': return a + b;
-      case '*': return a * b;
-      default: return NaN;
+  
+  const nod = (a, b) => {
+    if (b === 0) {
+        return a;
     }
-  };
+    return nod(b, a % b);
+};
 
-  const num1 = getRandomNumber(1, 10);
-  const num2 = getRandomNumber(1, 10);
-  const operator = getRandomOperator();
+  const num1 = getRandomNumber(1, 100);
+  const num2 = getRandomNumber(1, 100);
 
-  console.log(`Question: ${num1} ${operator} ${num2}`);
-  const correctAnswer = calculate(num1, num2, operator);
+
+  console.log(`Question: ${num1} ${num2}`);
+  const correctAnswer = nod(num1, num2);
   const userAnswer = Number(readlineSync.question('Your answer: '));
   
   if (userAnswer === correctAnswer) {

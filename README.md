@@ -5,3 +5,6 @@
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=Gera-Bukhman_frontend-project-44)
 [![asciicast](https://asciinema.org/a/9kV9uROcRljyI2l2PctsUo3bp.svg)](https://asciinema.org/a/9kV9uROcRljyI2l2PctsUo3bp)
 [![asciicast](https://asciinema.org/a/cJHAygjkjN5GqKj4E1vBoP84c.svg)](https://asciinema.org/a/cJHAygjkjN5GqKj4E1vBoP84c)
+[![asciicast](https://asciinema.org/a/UywZVTYaIfKtFM2MzAnTwLaCv.svg)](https://asciinema.org/a/UywZVTYaIfKtFM2MzAnTwLaCv)
+[![asciicast](https://asciinema.org/a/z8lx4VoZYYKLXEg95V6i3Jx2X.svg)](https://asciinema.org/a/z8lx4VoZYYKLXEg95V6i3Jx2X)
+[![asciicast](https://asciinema.org/a/z8lx4VoZYYKLXEg95V6i3Jx2X.svg)](https://asciinema.org/a/z8lx4VoZYYKLXEg95V6i3Jx2X)

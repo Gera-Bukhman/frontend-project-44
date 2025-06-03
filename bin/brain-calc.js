@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { calc } from '../src/calc-logic.js';
+import { runGame } from '../src/calc-logic.js';;
+runGame();
 
-calc();
