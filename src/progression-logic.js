@@ -15,8 +15,8 @@ export const askQuestion = () => {
 
   // 1. Генерируем прогрессию
   const length = getRandomNumber(5, 10) // Длина 5-10 чисел
-  const start = getRandomNumber(1, 20)  // Начальное число
-  const step = getRandomNumber(1, 10)   // Шаг прогрессии
+  const start = getRandomNumber(1, 20) // Начальное число
+  const step = getRandomNumber(1, 10) // Шаг прогрессии
   const hiddenIndex = getRandomNumber(0, length - 1) // Какой элемент скрываем
 
   // 2. Создаем массив прогрессии
