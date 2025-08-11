@@ -5,10 +5,10 @@ const operations = ['+', '-', '*']
 
 const calculate = (a, b, op) => {
   switch (op) {
-  case '+': return a + b
-  case '-': return a - b
-  case '*': return a * b
-  default: throw new Error(`Unknown operator: ${op}`)
+    case '+': return a + b
+    case '-': return a - b
+    case '*': return a * b
+    default: throw new Error(`Unknown operator: ${op}`)
   }
 }
 
